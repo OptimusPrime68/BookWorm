@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/login_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginStart="16dp"
+                      android:layout_marginEnd="16dp">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/bookworm"
+                       android:layout_gravity="center_horizontal"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_marginTop="20dp"
+                      android:drawableStart="@drawable/ic_user"
+                      android:hint="Name"
+                      android:drawablePadding="10dp"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/login_edit_background"
+                      android:padding="10dp" android:id="@+id/txtName" android:textColor="#FAF7F4F4"
+                      android:textColorHint="#F8F7F7"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_marginTop="10dp"
+                      android:drawableStart="@drawable/ic_email_black_24dp"
+                      android:hint="Email"
+                      android:drawablePadding="10dp"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/login_edit_background"
+                      android:padding="10dp" android:id="@+id/txtEmail" android:textColor="#FCFBFB"
+                      android:textColorHint="#F8F7F7"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_marginTop="10dp"
+                      android:drawableStart="@drawable/ic_password"
+                      android:hint="Password"
+                      android:drawablePadding="10dp"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/login_edit_background"
+                      android:padding="10dp" android:id="@+id/txtPwd" android:password="true"
+                      android:textColor="#FFFFFF" android:textColorHint="#FFFFFF"/>
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_marginTop="10dp"
+                      android:drawableStart="@drawable/ic_password"
+                      android:hint="Confirm Password"
+                      android:drawablePadding="10dp"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/login_edit_background"
+                      android:padding="10dp" android:id="@+id/txtCpwd" android:password="true"
+                      android:textColor="#FFFFFF" android:textColorHint="#FFFFFF"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:textAllCaps="false"
+                    android:textSize="21sp"
+                    android:background="@drawable/button_drawable" android:id="@+id/regBtn"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:text="Already Registered?"
+                      android:textSize="21sp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal" android:id="@+id/loginAgain"
+                      android:textColor="#FA9B08"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

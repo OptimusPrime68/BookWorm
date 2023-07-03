@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp">
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       app:cardCornerRadius="50dp">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:background="#fa9b08"
+                          android:orientation="horizontal"
+                          android:id="@+id/l1Message"
+                          android:layout_height="40dp">
+
+                <TextView android:layout_width="match_parent"
+                          android:textColor="#000"
+                          android:textSize="18sp"
+                          android:paddingLeft="13dp"
+                          android:text="Random text"
+                          android:paddingTop="8dp"
+                          android:id="@+id/tvTitle"
+                          android:layout_weight="1"
+                          android:layout_height="45dp"/>
+
+                <ImageButton android:layout_width="45dp"
+                             android:background="#fa9b08"
+                             android:id="@+id/ibDelete"
+                             android:layout_gravity="center"
+                             android:src="@drawable/ic_delete_black_24dp"
+                             android:layout_height="45dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1041653640529",
+    "firebase_url": "https://bwlogin-c0bf0.firebaseio.com",
+    "project_id": "bwlogin-c0bf0",
+    "storage_bucket": "bwlogin-c0bf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041653640529:android:7caaf83da80347c9faf770",
+        "android_client_info": {
+          "package_name": "com.example.bwlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041653640529-iepa0tdollr0fq81dpepckq1bngovote.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bwlogin",
+            "certificate_hash": "3ca1d0af33b9c128c5fe9ec0c39d5c2fae40685a"
+          }
+        },
+        {
+          "client_id": "1041653640529-h07vr71jist5p3b5b9nvtp8v3ft3n9cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa4Ei3hCR4QNFVUb6UC2Uf4ILy5gvnFzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041653640529-h07vr71jist5p3b5b9nvtp8v3ft3n9cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
